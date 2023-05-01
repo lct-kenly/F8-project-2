@@ -133,6 +133,7 @@ a {
 }
 
 .img__user-img {
+    display: block;
     width: 47rem;
     height: 68.5rem;
     object-fit: cover;
@@ -155,6 +156,8 @@ a {
 
 .course__desc {
     display: flex;
+    align-items: center;
+    margin: 1.1rem 0;
 }
 
 .course__logo {
@@ -285,4 +288,152 @@ a {
     font-size: 4.4rem;
     line-height: 1.23;
     color: #171100;
+}
+
+/* Popular */
+
+.popular {
+    height: 1000rem;
+}
+
+.popular__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 6.5rem 0;
+    margin-top: 13.5rem ;
+}
+
+.popular__heading {
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+
+.popular__desc {
+    margin-top: 1.6rem;
+    width: 45.8rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5F5B53;
+}
+
+.popular__control {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem
+}
+
+.control__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 99px;
+    color:var(--btn-color);
+    border: 1px solid var(--btn-color);
+    background: transparent;
+}
+
+.control__btn:hover {
+    cursor: pointer;
+    color:#fff;
+    background-color: var(--btn-color);
+}
+
+/* Coures list */
+
+.course__list-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course__item {
+    width: 37rem;
+    height: 46.6rem;      
+    background: #FFFFFF;
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+.course__thumb {
+    width: 37rem;
+    height: 27.8rem;
+    object-fit: cover   ;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.course__popular-info {
+    padding: 1.6rem 2.2rem 2.2rem 2.2rem;
+}
+
+.info__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.heading__title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.heading__rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating__value {
+    margin-left: 6px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #FEA31B;
+}
+
+.info__desc {       
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5F5B53;
+}
+
+.info__foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+
+}
+
+.foot__price {       
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.foot__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.8rem;
+    height: 5rem;
+    background-color:#000;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #FFFFFF;
+}
+
+.foot__btn:hover {
+    cursor: pointer;
+    background-color: var(--btn-color);
 }
